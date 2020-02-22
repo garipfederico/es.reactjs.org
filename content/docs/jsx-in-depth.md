@@ -109,7 +109,7 @@ function hello(props) {
 }
 
 function HelloWorld() {
-  // ¡Incorrecto! React piensa que <hola /> es una etiqueta HTML porque no está en mayúscula:
+  // ¡Incorrecto! React piensa que <hello /> es una etiqueta HTML porque no está en mayúscula:
   return <hello toWhat="World" />;
 }
 ```
